@@ -3,6 +3,29 @@
     padding:0;
 }
 
+
+#sobre{
+    font-family: sans-serif;
+    color: #380B61;
+    margin-left: 45%;
+}
+
+#imagem2{
+    margin-left: 20%;
+}
+
+#textosobre{
+    font-family: sans-serif;
+    color: #380B61;
+}
+
+#bodysobre{
+    font-family: sans-serif;
+    color: #380B61;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
 #titulo{
     font-family: sans-serif;
     color: #380B61;
