@@ -3,7 +3,11 @@
     padding:0;
 }
 
-
+#home{
+    font-family: sans-serif;
+    color: #380B61;
+    margin-left: 13%;
+}
 #sobre{
     font-family: sans-serif;
     color: #380B61;
