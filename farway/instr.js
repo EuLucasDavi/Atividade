@@ -1,13 +1,25 @@
-function createButton()
-{
-     var btn = document.createElement('BUTTON');
-     var lbl = document.createTextNode("CLICK ME");        
-     btn.appendChild(lbl);   
-     btn.onclick = function()
-     {
-        window.history.go(0);
-     }
-     document.body.appendChild(btn);    
+function paginas(irPaginas){
+switch(irPaginas){
+   case"cursos":
+      window.location.href = "cursos.html";
+      break;
+   case"sobre":
+      window.location.href = "sobre.html";
+      break;
+   case"cadastro":
+      window.location.href = "cadastro.html";
+      break;
+   default:
+      break;
+   }
 }
 
-createButton();
+document.getElementById("botao1").addEventListener("click",function(){
+   paginas("cursos")
+});
+document.getElementById("botao2").addEventListener("click",function(){
+   paginas("cadastro")
+});
+document.getElementById("botao3").addEventListener("click",function(){
+   paginas("sobre")
+})
