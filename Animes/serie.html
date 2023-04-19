@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Séries</title>
+  </head>
+  <body>
+    <h1>Página de Séries</h1>
+    <p>Esta é a página de séries</p>
+    <a href="https://www.youtube.com/watch?v=s7L2PVdrb_8" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/pt/a/a0/GameofThrones.png"></a>
+    <button onclick="redirect('index')">Voltar para a página inicial</button>
+    <script>
+      function redirect(page) {
+        switch (page) {
+          case "index":
+            document.location.href = "index.html";
+            break;
+          case "desenho":
+            document.location.href = "desenho.html";
+            break;
+          case "serie":
+            document.location.href = "serie.html";
+            break;
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <h1>Bem-vindo ao meu site</h1>
+    <p>Escolha uma página:</p>
+    <ul>
+      <li><a href="index.html" onclick="redirect('index')">Index</a></li>
+      <li><a href="desenho.html" onclick="redirect('desenho')">Desenho</a></li>
+      <li><a href="serie.html" onclick="redirect('serie')">Série</a></li>
+    </ul>
+    <script>
+      function redirect(page) {
+        switch (page) {
+          case "index":
+            document.location.href = "index.html";
+            break;
+          case "desenho":
+            document.location.href = "desenho.html";
+            break;
+          case "serie":
+            document.location.href = "serie.html";
+            break;
+        }
+      }
+    </script>
+</body>
+</html>
