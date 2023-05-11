@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Desenho</title>
+  </head>
+  <body>
+    <h1>Página de Desenho</h1>
+    <p>Esta é a página de desenho.</p>
+    <a href='https://www.youtube.com/watch?v=aHvFnTg1ecs' target="_blank"><img src="https://conteudo.imguol.com.br/c/entretenimento/d8/2017/09/27/bob-esponja-1506562776988_v2_450x337.jpg.webp">
+    <button onclick="redirect('index')">Voltar para a página inicial</button>
+    <script>
+      function redirect(page) {
+        switch (page) {
+          case "index":
+            document.location.href = "./index.html";
+            break;
+          case "desenho":
+            document.location.href = "./desenho.html";
+            break;
+          case "serie":
+            document.location.href = "./serie.html";
+            break;
+        }
+      }
+    </script>
+  </body>
+</html>
